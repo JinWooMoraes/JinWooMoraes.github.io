@@ -1564,7 +1564,7 @@ function SelPledgeKo(){
                    var pletextchan = document.getElementById("pa6");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "천일국 주인 우리 가정은 참사랑을 중심하고,하늘부모님과 참부모님의 대신가정으로서 천운을 움직이는 가정이 되어, 하늘의 축복을 주변에 연결시키는 가정을 완성할 것을 맹세하나이다. ";
+                   pletextchan.innerHTML = "6.천일국 주인 우리 가정은 참사랑을 중심하고,하늘부모님과 참부모님의 대신가정으로서 천운을 움직이는 가정이 되어, 하늘의 축복을 주변에 연결시키는 가정을 완성할 것을 맹세하나이다. ";
                    document.getElementById("voc1").style.display="none";
 		   document.getElementById("voc2").style.display="none";
                    document.getElementById("voc3").style.display="none";
@@ -1592,7 +1592,7 @@ function SelPledgeKo(){
                    var pletextchan = document.getElementById("pa5");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML ="천일국 주인 우리 가정은 참사랑을 중심하고,매일 주체적 천상세계와 대상적 지상세계의 통일을 향해 전진적 발전을 촉진화할 것을 맹세하나이다 ";
+                   pletextchan.innerHTML ="5.천일국 주인 우리 가정은 참사랑을 중심하고,매일 주체적 천상세계와 대상적 지상세계의 통일을 향해 전진적 발전을 촉진화할 것을 맹세하나이다 ";
                    document.getElementById("button1").style.backgroundColor="white";document.getElementById("button1").style.borderLeft="2px dotted orange";
                    document.getElementById("button2").style.backgroundColor="white";document.getElementById("button2").style.borderLeft="2px dotted orange";
                    document.getElementById("button3").style.backgroundColor="white";document.getElementById("button3").style.borderLeft="2px dotted orange";
@@ -1611,7 +1611,7 @@ function SelPledgeKo(){
                    var pletextchan = document.getElementById("pa4");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "천일국 주인 우리 가정은 참사랑을 중심하고, 하늘부모님의 창조이상인 천주대가족을 형성하여 자유와 평화와 통일과 행복의 세계를 완성할 것을 맹세하나이다 ";
+                   pletextchan.innerHTML = "4.천일국 주인 우리 가정은 참사랑을 중심하고, 하늘부모님의 창조이상인 천주대가족을 형성하여 자유와 평화와 통일과 행복의 세계를 완성할 것을 맹세하나이다 ";
                    document.getElementById("button1").style.backgroundColor="white";document.getElementById("button1").style.borderLeft="2px dotted orange";
                    document.getElementById("button2").style.backgroundColor="white";document.getElementById("button2").style.borderLeft="2px dotted orange";
                    document.getElementById("button3").style.backgroundColor="white";document.getElementById("button3").style.borderLeft="2px dotted orange";
@@ -1630,7 +1630,7 @@ function SelPledgeKo(){
                    var pletextchan = document.getElementById("pa3");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "천일국 주인 우리 가정은 참사랑을 중심하고, 사대심정권과 삼대왕권과 황족권을 완성할 것을 맹세하나이다. ";
+                   pletextchan.innerHTML = "3.천일국 주인 우리 가정은 참사랑을 중심하고, 사대심정권과 삼대왕권과 황족권을 완성할 것을 맹세하나이다. ";
                    document.getElementById("button1").style.backgroundColor="white";document.getElementById("button1").style.borderLeft="2px dotted orange";
                    document.getElementById("button2").style.backgroundColor="white";document.getElementById("button2").style.borderLeft="2px dotted orange";
                    document.getElementById("button3").style.backgroundColor="gold";document.getElementById("button3").style.borderLeft="3px solid yellow";
@@ -1647,10 +1647,10 @@ function SelPledgeKo(){
                    document.getElementById("pa2").style.float = "right";
                    document.getElementById("kobutton").style.float = "inherit";
                    var pletextchan = document.getElementById("pa2");
-                  pletextchan.style.fontSize = "37px";
+                  pletextchan.style.fontSize = "35px";
                   pletextchan.style.fontWeight = "548";
                   pletextchan.style.color = "grey";
-                  pletextchan.innerHTML = "천일국 주인 우리 가정은 참사랑을 중심하고, 하늘부모님과 참부모님을 모시어 천주의 대표적 가정이 되며, 중심적 가정이 되어 가정에서는 효자, 국가에서는 충신, 세계에서는 성인, 천주에서는 성자의 가정의 도리를 완성할 것을 맹세하나이다. ";
+                  pletextchan.innerHTML = "2.천일국 주인 우리 가정은 참사랑을 중심하고, 하늘부모님과 참부모님을 모시어 천주의 대표적 가정이 되며, 중심적 가정이 되어 가정에서는 효자, 국가에서는 충신, 세계에서는 성인, 천주에서는 성자의 가정의 도리를 완성할 것을 맹세하나이다. ";
                   document.getElementById("button1").style.backgroundColor="white";document.getElementById("button1").style.borderLeft="2px dotted orange";
                   document.getElementById("button2").style.backgroundColor="gold";document.getElementById("button2").style.borderLeft="3px solid yellow";
                   document.getElementById("button3").style.backgroundColor="white";document.getElementById("button3").style.borderLeft="2px dotted orange";
@@ -1669,7 +1669,7 @@ function SelPledgeKo(){
                   var pletextchan = document.getElementById("pa1");
                   pletextchan.style.fontSize = "40px";
                   pletextchan.style.color = "grey";
-                  pletextchan.innerHTML = "천일국 주인 우리 가정은 참사랑을 중심하고, 본향땅을 찾아, 본연의 창조이상인 지상천국과 천상천국을 창건할 것을 맹세하나이다 ";
+                  pletextchan.innerHTML = "1.천일국 주인 우리 가정은 참사랑을 중심하고, 본향땅을 찾아, 본연의 창조이상인 지상천국과 천상천국을 창건할 것을 맹세하나이다 ";
                   document.getElementById("button1").style.backgroundColor="gold";document.getElementById("button1").style.borderLeft="3px solid yellow";
                   document.getElementById("button2").style.backgroundColor="white";document.getElementById("button2").style.borderLeft="2px dotted orange";
                   document.getElementById("button3").style.backgroundColor="white";document.getElementById("button3").style.borderLeft="2px dotted orange";
@@ -1706,7 +1706,7 @@ function SelPledgePo(){
                    document.getElementById("voc8").style.display="block";
                    document.getElementById("topbox").style.marginLeft="40%";
                       }if(shovoc7on == 1 &&posel == 1){var pletextchan = document.getElementById("pa7");
-                      pletextchan.style.fontSize = "40px";
+                      pletextchan.style.fontSize = "35px";
                       pletextchan.style.color = "grey";
                       pletextchan.innerHTML = "7.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente, atraves da vivencia para servir os outros,o mundo da cultura do coracao que esta conectado com a linhagem de sangue original. ";
                    document.getElementById("voc1").style.display="none";
@@ -1720,7 +1720,7 @@ function SelPledgePo(){
                    document.getElementById("topbox").style.marginLeft="40%";
                    }if(shovoc6on == 1 &&posel ==1){
                    var pletextchan = document.getElementById("pa6");
-                   pletextchan.style.fontSize = "36.8px";
+                   pletextchan.style.fontSize = "35px";
                    pletextchan.style.color = "grey";
                    pletextchan.innerHTML = "6.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura tornar-se uma familia ideal, que multiplica as bencaos do Ceu para nosso proximo,<br>sendo a familia que representa Deus e os Verdadeiros Pais e que pode mobilizar a fortuna celeste.";
                    document.getElementById("pa6").style.float = "right";
@@ -1738,7 +1738,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa5");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura lutar diariamente, por um maior desenvolvimento da unidade entre?do mundo espiritual, sujeito e o mundo fisico, objeto.";
+                   pletextchan.innerHTML = "5.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura lutar diariamente, por um maior desenvolvimento da unidade entre do mundo espiritual, sujeito e o mundo fisico, objeto.";
                    document.getElementById("pa5").style.float = "right";
                    document.getElementById("kobutton").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1754,7 +1754,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa4");
                    pletextchan.style.fontSize = "37.5px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk,centralizada no Amor Verdadeiro,jura realizar perfeitamente o mundo de liberdade,paz, unidade e felicidade, atraves da<br>criacao de uma grande familia em nivel?cosmica que e o ideal da criacao de Deus.";
+                   pletextchan.innerHTML = "4.Nossa familia como dona do Cheon Il Guk,centralizada no Amor Verdadeiro,jura realizar perfeitamente o mundo de liberdade,paz, unidade e felicidade, atraves da<br>criacao de uma grande familia em nivel cosmica que e o ideal da criacao de Deus.";
                    document.getElementById("pa4").style.float = "right";
                    document.getElementById("kobutton").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1770,7 +1770,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa3");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente as Quatro Grandes Reinos do Coracao, as Tres Grandes Realezas, e o Reino de Familia Real.";
+                   pletextchan.innerHTML = "3.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente as Quatro Grandes Reinos do Coracao, as Tres Grandes Realezas, e o Reino de Familia Real.";
                    document.getElementById("pa3").style.float = "right";
                    document.getElementById("pa3").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1786,14 +1786,14 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa2");
                    pletextchan.style.fontSize = "34px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente o caminho dos?filhos de piedade filial na familia,dos patriotas na nacao, dos?santos no mundo e da familia dos filhos e filhas divinos no cosmos, dedicando-nos a Deus e aos Verdadeiros Pais e tornando-nos uma familia central que representa o cosmos.";
+                   pletextchan.innerHTML = "2.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente o caminho dos?filhos de piedade filial na familia,dos patriotas na nacao, dos?santos no mundo e da familia dos filhos e filhas divinos no cosmos, dedicando-nos a Deus e aos Verdadeiros Pais e tornando-nos uma familia central que representa o cosmos.";
                    document.getElementById("pa2").style.float = "right";
                    document.getElementById("pa2").style.float = "inherit";
                    }if(shovoc1on == 1 &&posel ==1){
                    var pletextchan = document.getElementById("pa1");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor?Verdadeiro, jura estabelecer o Reino de Deus na Terra e no Ceu, o ideal original da criacao, pela restauracao da Terra Natal Original";
+                   pletextchan.innerHTML = "1.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura?estabelecer o Reino de Deus na Terra e no Ceu, o?ideal original da criacao, pela restauracao da Terra Natal Original";
                    }}
 
 
