@@ -1722,7 +1722,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa6");
                    pletextchan.style.fontSize = "36.8px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura tornar-se uma familia ideal, que?multiplica as bencaos do Ceu para nosso proximo,<br>sendo a familia que representa Deus e os Verdadeiros Pais e que pode mobilizar a fortuna celeste.";
+                   pletextchan.innerHTML = "6.Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura tornar-se uma familia ideal, que multiplica as bencaos do Ceu para nosso proximo,<br>sendo a familia que representa Deus e os Verdadeiros Pais e que pode mobilizar a fortuna celeste.";
                    document.getElementById("pa6").style.float = "right";
                    document.getElementById("kobutton").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1738,7 +1738,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa5");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura?lutar diariamente, por um maior desenvolvimento da unidade entre?do mundo espiritual, sujeito?e o mundo fisico, objeto.";
+                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura lutar diariamente, por um maior desenvolvimento da unidade entre?do mundo espiritual, sujeito e o mundo fisico, objeto.";
                    document.getElementById("pa5").style.float = "right";
                    document.getElementById("kobutton").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1754,7 +1754,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa4");
                    pletextchan.style.fontSize = "37.5px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como?dona do Cheon Il Guk,centralizada no Amor Verdadeiro,jura realizar perfeitamente?o mundo de liberdade,paz, unidade e felicidade, atraves da<br>criacao de uma grande familia em nivel?cosmica que e o ideal da criacao de Deus.";
+                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk,centralizada no Amor Verdadeiro,jura realizar perfeitamente o mundo de liberdade,paz, unidade e felicidade, atraves da<br>criacao de uma grande familia em nivel?cosmica que e o ideal da criacao de Deus.";
                    document.getElementById("pa4").style.float = "right";
                    document.getElementById("kobutton").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1770,7 +1770,7 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa3");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como dona?do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente as Quatro Grandes?Reinos do Coracao, as Tres Grandes?Realezas, e o?Reino de Familia Real.";
+                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente as Quatro Grandes Reinos do Coracao, as Tres Grandes Realezas, e o Reino de Familia Real.";
                    document.getElementById("pa3").style.float = "right";
                    document.getElementById("pa3").style.float = "inherit";
                    document.getElementById("voc1").style.display="none";
@@ -1786,14 +1786,14 @@ function SelPledgePo(){
                    var pletextchan = document.getElementById("pa2");
                    pletextchan.style.fontSize = "34px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como?dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente o caminho dos?filhos de piedade filial na familia,dos patriotas na nacao, dos?santos no mundo e da familia dos?filhos e filhas divinos?no cosmos, dedicando-nos?a Deus e aos Verdadeiros Pais e tornando-nos uma familia central que representa o cosmos.";
+                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor Verdadeiro, jura realizar perfeitamente o caminho dos?filhos de piedade filial na familia,dos patriotas na nacao, dos?santos no mundo e da familia dos filhos e filhas divinos no cosmos, dedicando-nos a Deus e aos Verdadeiros Pais e tornando-nos uma familia central que representa o cosmos.";
                    document.getElementById("pa2").style.float = "right";
                    document.getElementById("pa2").style.float = "inherit";
                    }if(shovoc1on == 1 &&posel ==1){
                    var pletextchan = document.getElementById("pa1");
                    pletextchan.style.fontSize = "40px";
                    pletextchan.style.color = "grey";
-                   pletextchan.innerHTML = "Nossa familia como?dona do Cheon Il Guk, centralizada no Amor?Verdadeiro, jura?estabelecer o Reino de Deus na Terra e no Ceu, o?ideal original da criacao, pela restauracao da Terra Natal Original";
+                   pletextchan.innerHTML = "Nossa familia como dona do Cheon Il Guk, centralizada no Amor?Verdadeiro, jura estabelecer o Reino de Deus na Terra e no Ceu, o ideal original da criacao, pela restauracao da Terra Natal Original";
                    }}
 
 
