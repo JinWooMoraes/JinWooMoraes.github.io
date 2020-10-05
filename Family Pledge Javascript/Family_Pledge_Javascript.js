@@ -1462,9 +1462,9 @@ function shovoc8(){shovoc8on =1;
 
 // Out Button Functions
 
+
+
 // Show or Hide Korean Alphabet
-
-
 
 var showkoalp;
 var hidekoalp;
@@ -1797,63 +1797,400 @@ function SelPledgePo(){
                    }}
 
 
+
+// This part is the speed the Pledge audio is played 
+
+var speed="medium";
+
+function selSlow(){speed="slow";}
+function selMedium(){speed="medium";}
+function selFast(){speed="fast";}
+
+
+
                       
   function SayPledge(){ 
                        if(shovoc1on==1 &&kosel==1){                       
                        var playPledgeOneKO = document.getElementById("PledgeOneKO");
-                       playPledgeOneKO.playbackRate=0.70;
+
+                        
+
+		       switch(speed){
+		       case "slow":
+                       playPledgeOneKO.playbackRate=0.30;
                        playPledgeOneKO.play();
+		       break;
+                       case "medium":
+                       playPledgeOneKO.playbackRate=0.55;
+                       playPledgeOneKO.play();
+		       break;
+                       case "fast":
+                       playPledgeOneKO.playbackRate=0.80;
+                       playPledgeOneKO.play();
+                       break;
+                       default:
+                       playPledgeOneKO.playbackRate=0.55;
+                       playPledgeOneKO.play();
+                       }
+
+
+
+                       
                        }if(shovoc2on==1 &&kosel==1){
                        var playPledgeTwoKO = document.getElementById("PledgeTwoKO");
-                       playPledgeTwoKO.playbackRate=0.70;
+
+
+                       switch(speed){
+                       case "slow":
+                       playPledgeTwoKO.playbackRate=0.30;
                        playPledgeTwoKO.play();
+		       break;
+                       case "medium":
+                       playPledgeTwoKO.playbackRate=0.55;
+                       playPledgeTwoKO.play();
+		       break;
+                       case "fast":
+                       playPledgeTwoKO.playbackRate=0.80;
+                       playPledgeTwoKO.play();
+                       break;
+                       default:
+                       playPledgeTwoKO.playbackRate=0.55;
+                       playPledgeTwoKO.play();
+		       }
+
                        }if(shovoc3on==1 &&kosel==1){
+
                        var playPledgeThreeKO = document.getElementById("PledgeThreeKO");
-                       playPledgeThreeKO.playbackRate=0.70;
+
+                       switch(speed){
+		       
+
+		       case "slow":
+		       playPledgeThreeKO.playbackRate=0.30;
                        playPledgeThreeKO.play();
+                       break;
+                       case "medium":
+                       playPledgeThreeKO.playbackRate=0.55;
+                       playPledgeThreeKO.play();
+                       break;
+                       case "fast":
+                       playPledgeThreeKO.playbackRate=0.80;
+                       playPledgeThreeKO.play();
+                       break;
+                       default:
+                       playPledgeThreeKO.playbackRate=0.55;
+                       playPledgeThreeKO.play();
+                       }
+
+
                        }if(shovoc4on==1 &&kosel==1){
 		       var playPledgeFourKO = document.getElementById("PledgeFourKO");
-                       playPledgeFourKO.playbackRate=0.70;
+
+                       switch(speed){
+                       case "slow":
+                       playPledgeFourKO.playbackRate=0.30;
                        playPledgeFourKO.play();
+                       break;
+                       case "medium":
+                       playPledgeFourKO.playbackRate=0.50;
+                       playPledgeFourKO.play();
+                       break;
+                       case "fast":
+                       playPledgeFourKO.playbackRate=0.80;
+                       playPledgeFourKO.play();
+	               break;
+		       default:
+                       playPledgeFourKO.playbackRate=0.50;
+                       playPledgeFourKO.play();
+		       }
+
+
                        }if(shovoc5on==1 &&kosel==1){
                        var playPledgeFiveKO = document.getElementById("PledgeFiveKO");
-                       playPledgeFiveKO.playbackRate=0.70;
+
+                       switch(speed){
+                       case "slow":
+                       playPledgeFiveKO.playbackRate=0.30;
                        playPledgeFiveKO.play();
+                       break;
+                       case "medium":
+                       playPledgeFiveKO.playbackRate=0.50;
+                       playPledgeFiveKO.play();
+                       break;
+                       case "fast":
+                       playPledgeFiveKO.playbackRate=0.80;
+                       playPledgeFiveKO.play();
+                       break;
+                       default:
+                       playPledgeFiveKO.playbackRate=0.50;
+                       playPledgeFiveKO.play();
+
+                       }
+
+
                        }if(shovoc6on==1 &&kosel==1){
                        var playPledgeSixKO = document.getElementById("PledgeSixKO");
-                       playPledgeSixKO.playbackRate=0.70;
+
+
+                       switch(speed){
+                       case "slow":
+                       playPledgeSixKO.playbackRate=0.30;
                        playPledgeSixKO.play();
+                       break;
+                       case "medium":
+                       playPledgeSixKO.playbackRate=0.50;
+		       playPledgeSixKO.play();
+                       break;
+                       case "fast":
+                       playPledgeSixKO.playbackRate=0.80;
+                       playPledgeSixKO.play();
+                       break;
+                       default:
+                       playPledgeSixKO.playbackRate=0.50;
+                       playPledgeSixKO.play();
+
+                       }
+
+
+
                        }if(shovoc7on==1 &&kosel==1){
                        var playPledgeSevenKO = document.getElementById("PledgeSevenKO");
-                       playPledgeSevenKO.playbackRate=0.70;
-                       playPledgeSevenKO.play();
+
+
+                      switch(speed){
+                      case "slow":
+                      playPledgeSevenKO.playbackRate=0.30;
+                      playPledgeSevenKO.play();
+                      break;
+                      case "medium":
+                      playPledgeSevenKO.playbackRate=0.50;
+                      playPledgeSevenKO.play();
+                      break;
+                      case "fast":
+                      playPledgeSevenKO.playbackRate=0.80;
+                      playPledgeSevenKO.play();
+                      break;
+                      default:
+                      playPledgeSevenKO.playbackRate=0.50;
+                      playPledgeSevenKO.play();
+                      }
+
+
                        }if(shovoc8on==1 &&kosel==1){
                        var playPledgeEightKO = document.getElementById("PledgeEightKO");
-                       playPledgeEightKO.playbackRate=0.70;
+
+                       switch(speed){
+                       case "slow":
+                       playPledgeEightKO.playbackRate=0.30;
                        playPledgeEightKO.play();
+                       break;
+                       case "medium":
+                       playPledgeEightKO.playbackRate=0.50;
+                       playPledgeEightKO.play();
+                       break;
+                       case "fast":
+                       playPledgeEightKO.playbackRate=0.80;
+                       playPledgeEightKO.play();
+                       break;
+                       default:
+                       playPledgeEightKO.playbackRate=0.30;
+                       playPledgeEightKO.play();
+
+                       }
+
+
                        }if(shovoc1on==1 &&posel==1){
                        var playPledgeOnePO = document.getElementById("PledgeOnePO");
+
+                       switch(speed){
+                       case "slow":
+                       playPledgeOnePO.playbackRate=0.30;
+                       playPledgeOnePO.play();
+                       break;
+                       case "medium":
+                       playPledgeOnePO.playbackRate=0.55;
+                       playPledgeOnePO.play();
+                       break;
+                       case "fast":
+                       playPledgeOnePO.playbackRate=0.80;
+                       playPledgeOnePO.play();
+                       break;
+                       default:
+                       playPledgeOnePO.playbackRate=0.55;
+                       playPledgeOnePO.play();
+
+                       }
+
+
                       playPledgeOnePO.play();
 		      }if(shovoc2on==1 &&posel==1){
+
                        var playPledgeTwoPO = document.getElementById("PledgeTwoPO");
+                       
+                       switch(speed){
+                       case "slow":
+                       playPledgeTwoPO.playbackRate=0.30;
                        playPledgeTwoPO.play();
+                       break;
+                       case "medium":
+                       playPledgeTwoPO.playbackRate=0.55
+                       playPledgeTwoPO.play();
+                       break;
+                       case "fast":
+                       playPledgeTwoPO.playbackRate=0.80;
+                       playPledgeTwoPO.play();
+                       break;
+                       default:
+                       playPledgeTwoPO.playbackRate=0.30;
+                       playPledgeTwoPO.play();
+
+                       }
+
+
+
                       }if(shovoc3on==1 &&posel==1){
                       var playPledgeThreePO = document.getElementById("PledgeThreePO");
+
+                      switch(speed){
+                      case "slow": 
+                      playPledgeThreePO.playbackRate=0.30;
                       playPledgeThreePO.play();
+                      break;
+                      case "medium":
+                      playPledgeThreePO.playbackRate=0.55;
+                      playPledgeThreePO.play();
+                      break;
+                      case "fast":
+                      playPledgeThreePO.playbackRate=0.80;
+                      playPledgeThreePO.play();
+                      break;
+                      default:
+                      playPledgeThreePO.playbackRate=0.55;
+                      playPledgeThreePO.play();
+
+                      }
+
+
                       }if(shovoc4on==1 &&posel==1){
                       var playPledgeFourPO = document.getElementById("PledgeFourPO");
+                      
+                      switch(speed){
+                      case "slow":
+                      playPledgeFourPO.playbackRate=0.30;
                       playPledgeFourPO.play();
+                      break;
+                      case "medium":
+                      playPledgeFourPO.playbackRate=0.55;
+                      playPledgeFourPO.play();
+                      break;
+                      case "fast":
+                      playPledgeFourPO.playbackRate=0.80;
+                      playPledgeFourPO.play();
+                      break;
+                      default:
+                      playPledgeFourPO.playbackRate=0.55;
+                      playPledgeFourPO.play();
+
+                      }
+                 
                       }if(shovoc5on==1 &&posel==1){
                       var playPledgeFivePO = document.getElementById("PledgeFivePO");
+
+                      switch(speed){
+                      case "slow":
+                      playPledgeFivePO.playbackRate=0.30;
                       playPledgeFivePO.play();
+                      break;
+                      case "medium":
+                      playPledgeFivePO.playbackRate=0.55;
+                      playPledgeFivePO.play();
+                      break;
+                      case "fast":
+                      playPledgeFivePO.playbackRate=0.80;
+                      playPledgeFivePO.play();
+                      break;
+                      default:
+                      playPledgeFivePO.playbackRate=0.55;
+                      playPledgeFivePO.play();
+                      }
+
+
                       }if(shovoc6on==1 &&posel==1){
                       var playPledgeSixPO = document.getElementById("PledgeSixPO");
+
+                      switch(speed){
+                      case "slow":
+                      playPledgeSixPO.playbackRate=0.30;
+                      playPledgeSixPO.play();
+                      break;
+                      case "medium":
+                      playPledgeSixPO.playbackRate=0.55;
+                      playPledgeSixPO.play();
+                      break;
+                      playPledgeSixPO.playbackRate=0.80;
+                      playPledgeSixPO.play();
+                      break;
+                      default:
+                      playPledgeSixPO.playbackRate=0.55;
+                      playPledgeSixPO.play();
+
+
+                      }
+
                       playPledgeSixPO.play();
                       }if(shovoc7on==1 &&posel==1){
                       var playPledgeSevenPO = document.getElementById("PledgeSevenPO");
+
+                      switch(speed){
+                      case "slow":
+                      playPledgeSevenPO.playbackRate=0.30;
+                      playPledgeSevenPO.play();
+                      break;
+                      case "medium":
+                      playPledgeSevenPO.playbackRate=0.55;
+                      playPledgeSevenPO.play();
+                      break;
+                      case "fast":
+                      playPledgeSevenPO.playbackRate=0.80;
+                      playPledgeSevenPO.play();
+                      break;
+                      default:
+                      playPledgeSevenPO.playbackRate=0.55;
+                      playPledgeSevenPO.play();
+
+
+                      }
+
                       playPledgeSevenPO.play();
                       }if(shovoc8on==1 &&posel==1){
                       var playPledgeEightPO = document.getElementById("PledgeEightPO");
+
+                      switch(speed){
+                      case "slow":
+                      playPledgeEightPO.playbackRate=0.30;
                       playPledgeEightPO.play();
+                      break;
+                      case "medium":
+                      playPledgeEightPO.playbackRate=0.55;
+                      playPledgeEightPO.play();
+                      break;
+                      case "fast":
+                      playPledgeEightPO.playbackRate=0.80;
+                      playPledgeEightPO.play();
+                      break;
+                      default:
+                      playPledgeEightPO.playbackRate=0.30;
+                      playPledgeEightPO.play();
+
+                       
+                      }
+                      
+
 		      }}                  
                       
+
+
+
+
+
+
